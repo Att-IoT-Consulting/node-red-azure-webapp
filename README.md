@@ -9,7 +9,11 @@ To use it just:
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAtt-IoT-Consulting%2Fnode-red-azure-webapp%2Fmaster%2Fwebapp.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
 
-Or...
+After deployment, update the nodejs runtime by opening the webapp, going to configuration, and change the Application Setting **WEBSITE_NODE_DEFAULT_VERSION** to 16.16.0 or whatever is required.
+
+npm version is set in the file webapp.json.
+
+Alternative installation...
 
 1. Create an Azure Web App
 1. Open the settings and activate **Web sockets**

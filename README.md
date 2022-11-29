@@ -39,19 +39,14 @@ You can see the live log in the Azure Portal, in the *Log stream* tab:
 
 **Figure 4** Application logs stream
 
-It comes with some cool nodes preinstalled:
+It comes with some  nodes preinstalled:
 
 * Dashboard (create an awesome ui and see it in https://yoursite/ui )
-* Azure IoT Hub
-* Cognitive Services
-* Azure Storage (Blobs & Tables)
-* DocumentDB
-* Azure SQL
-* Swagger node
+* Postgresl
 
-## Securing your deployment
+## Securing the deployment
 
-To secure this deployment and add an admin password edit the `settings.js` file.
+The admin password is set to a default. To change it, edit the `settings.js` file.
 
 ## Version History
 

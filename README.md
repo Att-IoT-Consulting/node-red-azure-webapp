@@ -1,5 +1,8 @@
 # node-red-azure-webapp
 A webapp wrapper for running node-red in an Azure Web App.
+
+Based on https://github.com/jmservera/node-red-azure-webapp
+
 To use it just:
 
 1. Deploy to Azure with this button:
@@ -14,7 +17,7 @@ Or...
     ![Web sockets](./_images/websockets.png)
 
     **Figure 1** Activate Web sockets
-1. Configure the deployment options as an *External repository* pointing to [https://github.com/jmservera/node-red-azure-webapp.git](https://github.com/jmservera/node-red-azure-webapp.git)
+1. Configure the deployment options as an *External repository* pointing to [https://github.com/Att-IoT-Consulting/node-red-azure-webapp.git](https://github.com/Att-IoT-Consulting/node-red-azure-webapp.git)
 
     ![External repo](./_images/externalrepo.png)
 
@@ -70,4 +73,5 @@ To secure this deployment and add an admin password edit the `settings.js` file.
   * Update cognitive-services 0.5.5
   * Update dashboard 2.21.0
   * Update node-swagger 0.1.9
-  
+ * v3.0.0 
+  * Update node-red to 3.0.1

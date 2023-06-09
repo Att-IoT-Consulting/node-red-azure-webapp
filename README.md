@@ -52,6 +52,9 @@ It comes with some  nodes preinstalled:
 
 The admin password is set to a default. To change it, edit the `settings.js` file.
 
+Hash is created with: node-red admin hash-pw 
+Hash is set in /site/wwwroot/settings.js 
+
 ## Version History
 
 * v0.0.1
